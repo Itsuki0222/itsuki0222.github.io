@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>About Itsuki0222</title>
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+
+    </head>
+
+  <body class="drawer drawer--left">
+    <header role="banner">
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+    <nav class="drawer-nav" role="navigation">
+      <ul class="drawer-menu">
+        <li><a class="drawer-brand" href="#">Itsuki0222</a></li>
+        <li><a class="drawer-menu-item" href="#">Top</a></li>
+        <li><a class="drawer-menu-item" href="https://itsuki0222.github.io/blogs/">Blogs</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main role="main">
+  <style>
+    .flex {
+      display: flex;
+      width: 97vw;
+      height: 90vh;
+      color: black;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+
+    }
+    body {
+      font-family: "Zen Maru Gothic", serif;
+      font-weight: 400;
+      font-style: normal;
+      background-color: #f8f9f9;
+    }
+
+    @media screen and (max-width: 320px) and (max-width: 480px) {
+      .flex {
+        width: 320px;
+        height: 480px;
+      }
+    }
+  </style>
+    <div style="text-align: center;"><img src="./siteloo.png" alt="Itsuki0222"/></div>
+    
+    <div class="flex">
+      <h1>Itsuki0222's Homepage</h1>
+      <p>工事中です...</p>
+
+  </main>
+  <script>
+    $(document).ready(function() {
+    $('.drawer').drawer();
+  });
+  </script>
+
+</body>
+</html>
